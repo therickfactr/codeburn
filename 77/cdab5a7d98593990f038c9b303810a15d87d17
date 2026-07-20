@@ -1,0 +1,25 @@
+src/model-breakdown.ts
+  s_2b8402426847bf::t_9c26a75f7d3f77 1-38
+tests/model-breakdown.test.ts
+  s_2b8402426847bf::t_ca65627b4933d6 1-44
+src/dashboard.tsx
+  s_2b8402426847bf::t_15954365633764 9-10
+  s_2b8402426847bf::t_e6abd1b5900b32 402-404
+  s_2b8402426847bf::t_629d19872f1ce0 430
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "77cdab5a7d98593990f038c9b303810a15d87d17",
+  "prompts": {},
+  "sessions": {
+    "s_2b8402426847bf": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b2b1b7f3-bee6-44c7-9e27-d51a5622da81",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Rick (TheRickFactr) Culpepper"
+    }
+  }
+}
