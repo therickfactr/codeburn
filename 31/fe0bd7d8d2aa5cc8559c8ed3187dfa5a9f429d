@@ -1,0 +1,160 @@
+app/electron/preload.ts
+  s_2b8402426847bf::t_d2298bd93911b8 72
+src/quota.ts
+  s_2b8402426847bf::t_d2298bd93911b8 79-82
+mac/Sources/CodeBurnMenubar/Views/MenuBarContent.swift
+  s_2b8402426847bf::t_d2298bd93911b8 392,522-523,550,587-596
+  s_2b8402426847bf::t_aae9cb510c53cd 597
+src/types.ts
+  s_2b8402426847bf::t_d2298bd93911b8 202-207
+tests/cache-refresh-lock.test.ts
+  s_2b8402426847bf::t_d2298bd93911b8 1-225
+src/currency.ts
+  s_2b8402426847bf::t_d2298bd93911b8 76-79
+app/renderer/hooks/useUpdateStatus.ts
+  s_2b8402426847bf::t_d2298bd93911b8 26-28,32-57
+tests/parser-cache-refresh-timeout.test.ts
+  s_2b8402426847bf::t_d2298bd93911b8 1-62
+app/renderer/sections/Overview.test.tsx
+  s_2b8402426847bf::t_d2298bd93911b8 332-352
+src/sessions-report.ts
+  s_2b8402426847bf::t_d2298bd93911b8 5-6,46,69,72,86-148
+tests/quota.test.ts
+  s_2b8402426847bf::t_d2298bd93911b8 182-196
+tests/workflow-insights.test.ts
+  s_2b8402426847bf::t_d2298bd93911b8 6,13,79,81,93-112,130,136,138,312-342
+  s_2b8402426847bf::t_56b7b52183fc8e 343
+package.json
+  s_2b8402426847bf::t_d2298bd93911b8 3
+app/electron/main.ts
+  s_2b8402426847bf::t_d2298bd93911b8 136
+app/renderer/sections/Overview.tsx
+  s_2b8402426847bf::t_d2298bd93911b8 15,446-447,481-500,521-528,659
+app/renderer/styles/plain.css
+  s_2b8402426847bf::t_d2298bd93911b8 643-645,672-673
+src/workflow-insights.ts
+  s_2b8402426847bf::t_d2298bd93911b8 10-13,21,44-49,54-57,79-82,111-118,120-122,124,146-149,151-152,180-183,187,238
+src/format.ts
+  s_2b8402426847bf::t_d2298bd93911b8 39-47,53-60
+app/renderer/hooks/useUpdateStatus.test.ts
+  s_2b8402426847bf::t_d2298bd93911b8 1-44
+src/usage-aggregator.ts
+  s_2b8402426847bf::t_d2298bd93911b8 5,14,49,186-349,423-439
+app/renderer/lib/period.test.ts
+  s_2b8402426847bf::t_d2298bd93911b8 3-4,6-7,10-12,15-16,19-28
+src/day-aggregator.ts
+  s_2b8402426847bf::t_d2298bd93911b8 105-111,113-114,119-126,129-131,133,136-137
+app/renderer/components/StackedBars.tsx
+  s_2b8402426847bf::t_d2298bd93911b8 15,41-80
+app/renderer/components/UpdateBanner.tsx
+  s_2b8402426847bf::t_d2298bd93911b8 3,35
+app/renderer/components/StackedBars.test.tsx
+  s_2b8402426847bf::t_d2298bd93911b8 32-59
+app/renderer/sections/Spend.tsx
+  s_2b8402426847bf::t_d2298bd93911b8 14,103,157
+dash/src/lib/api.ts
+  s_2b8402426847bf::t_d2298bd93911b8 1,174-176,182-183
+README.md
+  s_2b8402426847bf::t_d2298bd93911b8 28-33
+tests/fixtures/cache-refresh-worker.ts
+  s_2b8402426847bf::t_d2298bd93911b8 1-43
+src/data/pricing-fallback.json
+  s_2b8402426847bf::t_44aa1133be7dc1 1
+tests/menubar-json.test.ts
+  s_2b8402426847bf::t_d2298bd93911b8 41-43
+src/models.ts
+  s_2b8402426847bf::t_d2298bd93911b8 727-740
+src/session-cache.ts
+  s_2b8402426847bf::t_d2298bd93911b8 386,404-424,426,431-443
+  s_2b8402426847bf::t_cdcf2c62c63a9c 444-445
+tests/day-aggregator.test.ts
+  s_2b8402426847bf::t_d2298bd93911b8 42-75,171-212,292-293,295,304-344
+app/renderer/lib/period.ts
+  s_2b8402426847bf::t_d2298bd93911b8 28-30,34-56
+  s_2b8402426847bf::t_fcfafddbecf954 57-58
+src/dashboard.tsx
+  s_2b8402426847bf::t_d2298bd93911b8 11,132-171,274-281,283-286,843,857,869,875,886,971-973,986-991,1190,1213,1219,1238-1241,1246,1250
+app/renderer/App.tsx
+  s_2b8402426847bf::t_d2298bd93911b8 122-123,126
+src/data/litellm-snapshot.json
+  s_2b8402426847bf::t_44aa1133be7dc1 1
+src/cache-refresh-lock.ts
+  s_2b8402426847bf::t_d2298bd93911b8 1-344
+app/package.json
+  s_2b8402426847bf::t_d2298bd93911b8 4-5
+tests/cli-durable-totals.test.ts
+  s_2b8402426847bf::t_d2298bd93911b8 1-261
+mac/Tests/CodeBurnMenubarTests/MenubarPeriodSettingsTests.swift
+  s_2b8402426847bf::t_d2298bd93911b8 12-29,37
+mac/Tests/CodeBurnMenubarTests/UpdateCheckerTests.swift
+  s_2b8402426847bf::t_d2298bd93911b8 61-102
+dash/src/components/UsageChart.tsx
+  s_2b8402426847bf::t_d2298bd93911b8 144-153,155
+tests/daily-cache-carry-forward.test.ts
+  s_2b8402426847bf::t_d2298bd93911b8 391,486
+app/renderer/components/ActivityHeatmap.test.tsx
+  s_2b8402426847bf::t_d2298bd93911b8 1-50
+app/renderer/components/TopBar.tsx
+  s_2b8402426847bf::t_d2298bd93911b8 12,19
+app/renderer/components/ActivityHeatmap.tsx
+  s_2b8402426847bf::t_d2298bd93911b8 5,14-16,51,64,66-68,70,72,75,125-126,129,148-155
+src/main.ts
+  s_2b8402426847bf::t_d2298bd93911b8 14,416-417,450,454-460,465-470,506-539,774-775,948-949,954-970,1130-1136,1164-1169,2010,2014,2029-2065
+tests/cache-refresh-lock-process.test.ts
+  s_2b8402426847bf::t_d2298bd93911b8 1-167
+tests/sessions-by-pr.test.ts
+  s_2b8402426847bf::t_d2298bd93911b8 1-72
+CHANGELOG.md
+  s_2b8402426847bf::t_d2298bd93911b8 3-37
+app/renderer/lib/types.ts
+  s_2b8402426847bf::t_d2298bd93911b8 7,595-597
+src/parser.ts
+  s_2b8402426847bf::t_d2298bd93911b8 28,1805,1823-1825,1827-1835,1844-1853,1883-1912,1915-1929,1931-1961,1963,2009,2049-2050,2559,2566,2579,2592,2594,2599-2611,2715,2720,2731,2748,2750,2777-2781,2783-2789,2832,2835-2836,3031-3052,3055-3061,3063,3067-3083,3104,3126,3138,3167,3178-3186
+src/menubar-json.ts
+  s_2b8402426847bf::t_d2298bd93911b8 244-246,482
+tests/sessions-report.test.ts
+  s_2b8402426847bf::t_d2298bd93911b8 81
+app/renderer/components/AboutModal.tsx
+  s_2b8402426847bf::t_d2298bd93911b8 6,84
+mac/Sources/CodeBurnMenubar/Data/UpdateChecker.swift
+  s_2b8402426847bf::t_d2298bd93911b8 168-262
+src/overview.ts
+  s_2b8402426847bf::t_d2298bd93911b8 10,87-101,104,109,114,180-202,346-351
+  s_2b8402426847bf::t_29c2dbe79fc9e6 352
+mac/Sources/CodeBurnMenubar/AppStore.swift
+  s_2b8402426847bf::t_d2298bd93911b8 1505-1507,1509-1510,1512-1513,1525,1538,1549,1559,1580-1582
+app/renderer/styles/indigo.css
+  s_2b8402426847bf::t_d2298bd93911b8 94-95
+mac/Sources/CodeBurnMenubar/Views/HeatmapSection.swift
+  s_2b8402426847bf::t_d2298bd93911b8 138
+app/renderer/sections/Settings.tsx
+  s_2b8402426847bf::t_d2298bd93911b8 11,211
+src/daily-cache.ts
+  s_2b8402426847bf::t_d2298bd93911b8 626-633
+tests/parser-incremental-append.test.ts
+  s_2b8402426847bf::t_d2298bd93911b8 239-279
+tests/providers/vercel-gateway.test.ts
+  s_2b8402426847bf::t_d2298bd93911b8 104-106
+tests/daily-cache.test.ts
+  s_2b8402426847bf::t_d2298bd93911b8 263,272
+app/package-lock.json
+  s_2b8402426847bf::t_91cde08057f119 3,9
+package-lock.json
+  s_2b8402426847bf::t_832007dcffcc8e 3,9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "31fe0bd7d8d2aa5cc8559c8ed3187dfa5a9f429d",
+  "prompts": {},
+  "sessions": {
+    "s_2b8402426847bf": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b2b1b7f3-bee6-44c7-9e27-d51a5622da81",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Rick (TheRickFactr) Culpepper"
+    }
+  }
+}
