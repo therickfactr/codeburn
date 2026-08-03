@@ -1,0 +1,55 @@
+tests/providers/cline-cli.test.ts
+  s_dab80361bc45dc::t_b27549e28d7e7b 450-475
+  s_dab80361bc45dc::t_0837236c5131da 325-391
+  s_dab80361bc45dc::t_7452813c41b620 1-324,392,394-448,476-481
+  s_dab80361bc45dc::t_e22c1ee3347ab4 393,449
+CHANGELOG.md
+  s_dab80361bc45dc::t_f320747f7e00fe 10
+docs/providers/cline.md
+  s_dab80361bc45dc::t_47375275c0e3d5 5-6
+src/providers/cline-cli.ts
+  s_dab80361bc45dc::t_b2186fa5e5965e 1-21,23-73,81-97,101-114,123-252,256-328,335-345,347-348,350-414
+  s_dab80361bc45dc::t_ba8cd823735110 98-100
+  s_dab80361bc45dc::t_6b62a385a106ee 329-334
+  s_dab80361bc45dc::t_00d2fa551b79d1 346,349
+  s_dab80361bc45dc::t_bab3cc06346990 22
+  s_dab80361bc45dc::t_f472440ef14e2e 115-122
+  s_dab80361bc45dc::t_012595d3e736db 253-255
+  s_dab80361bc45dc::t_cc7a3ea2fc72c5 74-80
+src/parser.ts
+  s_dab80361bc45dc::t_f586978174eb68 2391
+src/session-cache.ts
+  s_dab80361bc45dc::t_9fe6acb99283e2 212-215
+  s_dab80361bc45dc::t_8d7d641b43d7f4 176
+README.md
+  s_dab80361bc45dc::t_cb9a36e47ff918 676
+tests/setup/env-isolation.ts
+  s_dab80361bc45dc::t_557a32cbf5a94c 52-54
+tests/provider-turn-grouping.test.ts
+  s_dab80361bc45dc::t_61c7f2f245aadb 240-290
+src/providers/index.ts
+  s_dab80361bc45dc::t_57bc3e94b7d9b3 3
+  s_dab80361bc45dc::t_5266ca4344d469 194
+docs/providers/README.md
+  s_dab80361bc45dc::t_22e6f6004177ad 15
+tests/provider-registry.test.ts
+  s_dab80361bc45dc::t_0628d9bf104eed 17
+docs/providers/cline-cli.md
+  s_dab80361bc45dc::t_03a5d27e6f73f7 1-58
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "56ec75dab5e4a6c861fceee9f0a3322dccf0a933",
+  "prompts": {},
+  "sessions": {
+    "s_dab80361bc45dc": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c2cb24dd-9a00-46e6-9650-f75a7c1f86f9",
+        "model": "claude-opus-5"
+      },
+      "human_author": null
+    }
+  }
+}
