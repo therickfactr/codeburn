@@ -3,7 +3,15 @@ import { homedir } from 'os'
 import { basename, join } from 'path'
 
 import { discoverClineTasks, createClineParser, getVSCodeGlobalStoragePaths } from './vscode-cline-parser.js'
-import type { Provider, SessionSource, SessionParser } from './types.js'
+import {
+  createClineCliParser,
+  discoverClineCliSessions,
+  getClineCliSessionsDir,
+  isClineCliSource,
+  mapClineCliToolName,
+} from './cline-cli-parser.js'
+import { getShortModelName } from '../models.js'
+import type { ProbeRoot, Provider, SessionSource, SessionParser } from './types.js'
 
 const EXTENSION_ID = 'saoudrizwan.claude-dev'
 
@@ -36,19 +44,39 @@ async function dedupeTaskSources(sources: SessionSource[]): Promise<SessionSourc
   return deduped
 }
 
-export function createClineProvider(overrideDirs?: string | string[]): Provider {
+export function createClineProvider(
+  overrideDirs?: string | string[],
+  cliSessionsDir?: string,
+): Provider {
   const configuredDirs = normalizeOverrideDirs(overrideDirs)
+  const sessionsDir = (): string => cliSessionsDir ?? getClineCliSessionsDir()
 
   return {
     name: 'cline',
     displayName: 'Cline',
 
     modelDisplayName(model: string): string {
-      return model
+      // The CLI records routed ids like `cline-pass/glm-5.2`, which are
+      // unreadable raw; getShortModelName resolves those (and the extension's
+      // `anthropic/claude-sonnet-4-5`) to the model's real name.
+      return getShortModelName(model)
     },
 
     toolDisplayName(rawTool: string): string {
-      return rawTool
+      // Only the CLI's tool vocabulary is mapped; the extension's names are not
+      // in that table and pass through untouched.
+      return mapClineCliToolName(rawTool)
+    },
+
+    async probeRoots(): Promise<ProbeRoot[]> {
+      const taskRoots = configuredDirs ?? [
+        ...getVSCodeGlobalStoragePaths(EXTENSION_ID),
+        getClineDataPath(),
+      ]
+      return [
+        ...taskRoots.map(path => ({ path, label: 'Cline tasks' })),
+        { path: sessionsDir(), label: 'Cline CLI sessions' },
+      ]
     },
 
     async discoverSessions(): Promise<SessionSource[]> {
@@ -60,11 +88,21 @@ export function createClineProvider(overrideDirs?: string | string[]): Provider 
         getClineDataPath(),
       ]
 
-      return dedupeTaskSources(await discoverClineTasks(EXTENSION_ID, 'cline', 'Cline', baseDirs))
+      // Task sources dedup among themselves by task id; the CLI's session dirs
+      // live under a different subtree and carry no task id, so they are
+      // discovered separately and appended rather than run through that pass.
+      const [tasks, cliSessions] = await Promise.all([
+        discoverClineTasks(EXTENSION_ID, 'cline', 'Cline', baseDirs).then(dedupeTaskSources),
+        discoverClineCliSessions(cliSessionsDir),
+      ])
+
+      return [...tasks, ...cliSessions]
     },
 
     createSessionParser(source: SessionSource, seenKeys: Set<string>): SessionParser {
-      return createClineParser(source, seenKeys, 'cline')
+      return isClineCliSource(source)
+        ? createClineCliParser(source, seenKeys)
+        : createClineParser(source, seenKeys, 'cline')
     },
   }
 }

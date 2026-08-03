@@ -203,8 +203,14 @@ describe('cline provider - metadata', () => {
     expect(cline.displayName).toBe('Cline')
   })
 
-  it('passes through model and tool display names', () => {
-    expect(cline.modelDisplayName('claude-sonnet-4-5')).toBe('claude-sonnet-4-5')
+  // Model ids used to be passed through raw. The CLI records routed ids like
+  // `cline-pass/glm-5.2`, which are unreadable that way, so the provider now
+  // resolves names — which also gives the extension's ids their real labels.
+  it('resolves model display names and leaves extension tool names alone', () => {
+    expect(cline.modelDisplayName('claude-sonnet-4-5')).toBe('Sonnet 4.5')
+    expect(cline.modelDisplayName('cline-pass/glm-5.2')).toBe('GLM-5.2')
+    // Only the CLI's tool vocabulary is mapped; extension names pass through.
     expect(cline.toolDisplayName('read_file')).toBe('read_file')
+    expect(cline.toolDisplayName('run_commands')).toBe('Bash')
   })
 })
