@@ -1,0 +1,45 @@
+CHANGELOG.md
+  s_dab80361bc45dc::t_f320747f7e00fe 10
+src/parser.ts
+  s_dab80361bc45dc::t_f586978174eb68 2391
+docs/providers/cline-cli.md
+  s_dab80361bc45dc::t_03a5d27e6f73f7 1-58
+src/session-cache.ts
+  s_dab80361bc45dc::t_8d7d641b43d7f4 176
+  s_dab80361bc45dc::t_9fe6acb99283e2 212-215
+tests/setup/env-isolation.ts
+  s_dab80361bc45dc::t_557a32cbf5a94c 52-54
+docs/providers/cline.md
+  s_dab80361bc45dc::t_47375275c0e3d5 5-6
+docs/providers/README.md
+  s_dab80361bc45dc::t_22e6f6004177ad 15
+src/providers/cline-cli.ts
+  s_dab80361bc45dc::t_b2186fa5e5965e 1-393
+tests/providers/cline-cli.test.ts
+  s_dab80361bc45dc::t_7452813c41b620 1-388
+tests/provider-turn-grouping.test.ts
+  s_dab80361bc45dc::t_61c7f2f245aadb 240-290
+README.md
+  s_dab80361bc45dc::t_cb9a36e47ff918 668
+src/providers/index.ts
+  s_dab80361bc45dc::t_57bc3e94b7d9b3 3
+  s_dab80361bc45dc::t_5266ca4344d469 194
+tests/provider-registry.test.ts
+  s_dab80361bc45dc::t_0628d9bf104eed 17
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "e94e4758085510580949f125b97b527ca321fc38",
+  "prompts": {},
+  "sessions": {
+    "s_dab80361bc45dc": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c2cb24dd-9a00-46e6-9650-f75a7c1f86f9",
+        "model": "claude-opus-5"
+      },
+      "human_author": null
+    }
+  }
+}
