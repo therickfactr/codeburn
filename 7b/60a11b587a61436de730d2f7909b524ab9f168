@@ -1,0 +1,52 @@
+tests/providers/cline.test.ts
+  s_dab80361bc45dc::t_8252db7ad39216 129-160
+src/providers/cline.ts
+  s_dab80361bc45dc::t_d89452be6cf4ce 55-57,59
+  s_dab80361bc45dc::t_83cf5b4a7c1f6b 5
+docs/providers/cline-cli.md
+  s_dab80361bc45dc::t_03a5d27e6f73f7 1-58
+src/providers/cline-cli.ts
+  s_dab80361bc45dc::t_b2186fa5e5965e 1-393
+docs/providers/README.md
+  s_dab80361bc45dc::t_22e6f6004177ad 15
+tests/provider-turn-grouping.test.ts
+  s_dab80361bc45dc::t_61c7f2f245aadb 240-290
+docs/providers/cline.md
+  s_dab80361bc45dc::t_42d8abd3b3f57f 11,13,16
+  s_9b855aedc876a6::t_f55dd661dde067 17
+src/providers/index.ts
+  s_dab80361bc45dc::t_57bc3e94b7d9b3 3
+  s_dab80361bc45dc::t_5266ca4344d469 194
+tests/setup/env-isolation.ts
+  s_dab80361bc45dc::t_557a32cbf5a94c 52-54
+tests/provider-registry.test.ts
+  s_dab80361bc45dc::t_0628d9bf104eed 17
+src/parser.ts
+  s_dab80361bc45dc::t_f586978174eb68 2391
+tests/providers/cline-cli.test.ts
+  s_dab80361bc45dc::t_7452813c41b620 1-388
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "7b60a11b587a61436de730d2f7909b524ab9f168",
+  "prompts": {},
+  "sessions": {
+    "s_9b855aedc876a6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c248cee4-2aa6-418f-a73e-fc7453bce358",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Rick (TheRickFactr) Culpepper <therickfactr@black-oxford.home.lan>"
+    },
+    "s_dab80361bc45dc": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c2cb24dd-9a00-46e6-9650-f75a7c1f86f9",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Rick (TheRickFactr) Culpepper <therickfactr@black-oxford.home.lan>"
+    }
+  }
+}
