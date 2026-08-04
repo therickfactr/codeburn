@@ -1,0 +1,31 @@
+src/providers/cline.ts
+  s_dab80361bc45dc::t_a1a9081bc51668 6,41-48,62-65,67
+src/providers/grok.ts
+  s_dab80361bc45dc::t_860a750623015e 8,260-263
+src/providers/kilo-code.ts
+  s_dab80361bc45dc::t_a02802b8aa1f81 5,7,37-44
+src/providers/kimi.ts
+  s_dab80361bc45dc::t_19bd4b95cdbfcc 9,349-352
+src/providers/pi.ts
+  s_dab80361bc45dc::t_7f1adeebe46e12 9,275-278,309-312
+src/providers/roo-code.ts
+  s_dab80361bc45dc::t_36bcc993545764 1-2,6-12,26-29
+tests/provider-probe-roots.test.ts
+  s_dab80361bc45dc::t_0d1fd9707bf034 16-21,124-191
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "dbedcb9d7be870e5dfbebe1944874c52ee6a2cbf",
+  "prompts": {},
+  "sessions": {
+    "s_dab80361bc45dc": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c2cb24dd-9a00-46e6-9650-f75a7c1f86f9",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Rick (TheRickFactr) Culpepper <therickfactr@black-oxford.home.lan>"
+    }
+  }
+}
