@@ -1,0 +1,68 @@
+tests/providers/cline.test.ts
+  s_dab80361bc45dc::t_724b59c61a1b84 206-212,214
+tests/provider-turn-grouping.test.ts
+  s_dab80361bc45dc::t_61c7f2f245aadb 240-282,284-290
+  s_dab80361bc45dc::t_da8e009b4fe7f9 283
+docs/providers/README.md
+  s_dab80361bc45dc::t_ca9c3ddfc758cf 14
+src/parser.ts
+  s_dab80361bc45dc::t_0331ba6d5ffb69 2391
+src/providers/cline.ts
+  s_dab80361bc45dc::t_71f99c07f76507 47-50,52,59-62,66-79,91-99,103-105
+  s_dab80361bc45dc::t_f5a3a59da01be8 6-14
+README.md
+  s_dab80361bc45dc::t_e07412c8bfab24 675
+src/providers/cline-cli-parser.ts
+  s_dab80361bc45dc::t_b8c5479629a484 13,16-26
+  s_dab80361bc45dc::t_968c8948db57aa 371-372,374-408
+  s_dab80361bc45dc::t_cc337d83312c39 7-9,28-333
+  s_dab80361bc45dc::t_e7ea6f0bd7575d 4-6
+  s_dab80361bc45dc::t_e2c07064e22be7 10-12
+  s_dab80361bc45dc::t_dc801b5d6f5cc1 14-15
+  s_dab80361bc45dc::t_6f8c4a4ec3c956 27
+  s_dab80361bc45dc::t_84f495dd2e00de 334-336,368-370
+  s_dab80361bc45dc::t_ba53a5747471e0 373
+  s_dab80361bc45dc::t_57dc403cf22d28 1-3,337-367
+tests/providers/cline-cli.test.ts
+  s_dab80361bc45dc::t_7452813c41b620 1-5,8-85,87-103,109-110,115,121,123-124,184-213,215-217,219-222,224-225,227-232,234-241,243-251,253-255,257-259,261-279,281-366,368-387,455,457-480,482-511,539-544
+  s_dab80361bc45dc::t_0837236c5131da 388-454
+  s_dab80361bc45dc::t_04d962d027384e 104-108,111-114,183,218,226,260,280,481
+  s_dab80361bc45dc::t_e22c1ee3347ab4 456,512
+  s_dab80361bc45dc::t_b27549e28d7e7b 513-538
+  s_dab80361bc45dc::t_c08e8e73609ada 126-182
+  s_dab80361bc45dc::t_da8e009b4fe7f9 6-7,86,116-120,122,214,223,233,242,252,256,367
+  s_d1b6c131b685fe::t_0a63430d854174 125
+tests/setup/env-isolation.ts
+  s_dab80361bc45dc::t_557a32cbf5a94c 52-54
+docs/providers/cline.md
+  s_dab80361bc45dc::t_51c35bb20842e1 5-7,11
+  s_dab80361bc45dc::t_ef989c42500f33 3,15-17,55-72
+CHANGELOG.md
+  s_dab80361bc45dc::t_51c35bb20842e1 10
+src/session-cache.ts
+  s_dab80361bc45dc::t_0331ba6d5ffb69 176,211-214
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "36fb17563a1f4d9d9e0d2a378a26d86d1577f43b",
+  "prompts": {},
+  "sessions": {
+    "s_d1b6c131b685fe": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6c53a446-49df-4718-bc47-d713b391c755",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Rick (TheRickFactr) Culpepper <therickfactr@black-oxford.home.lan>"
+    },
+    "s_dab80361bc45dc": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c2cb24dd-9a00-46e6-9650-f75a7c1f86f9",
+        "model": "claude-opus-5"
+      },
+      "human_author": null
+    }
+  }
+}
