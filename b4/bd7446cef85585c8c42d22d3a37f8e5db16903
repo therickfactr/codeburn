@@ -1,0 +1,71 @@
+README.md
+  s_dab80361bc45dc::t_e07412c8bfab24 675
+docs/providers/cline.md
+  s_dab80361bc45dc::t_ef989c42500f33 3,15-17,55-72
+  s_dab80361bc45dc::t_51c35bb20842e1 5-7,11
+tests/provider-turn-grouping.test.ts
+  s_dab80361bc45dc::t_61c7f2f245aadb 240-282,284-290
+  s_dab80361bc45dc::t_da8e009b4fe7f9 283
+CHANGELOG.md
+  s_dab80361bc45dc::t_51c35bb20842e1 10
+tests/providers/cline.test.ts
+  s_dab80361bc45dc::t_724b59c61a1b84 206-212,214
+docs/providers/README.md
+  s_dab80361bc45dc::t_ca9c3ddfc758cf 14
+tests/setup/env-isolation.ts
+  s_dab80361bc45dc::t_557a32cbf5a94c 52-54
+src/providers/cline.ts
+  s_dab80361bc45dc::t_f5a3a59da01be8 6-14
+  s_dab80361bc45dc::t_71f99c07f76507 47-50,52,59-62,66-79,91-99,103-105
+src/parser.ts
+  s_dab80361bc45dc::t_0331ba6d5ffb69 2391
+tests/providers/cline-cli.test.ts
+  s_dab80361bc45dc::t_da8e009b4fe7f9 6-7,86,116-120,122,239,248,258,267,277,281,392
+  s_dab80361bc45dc::t_c08e8e73609ada 126-166,192-207
+  s_dab80361bc45dc::t_7452813c41b620 1-5,8-85,87-103,109-110,115,121,123-124,209-238,240-242,244-247,249-250,252-257,259-266,268-276,278-280,282-284,286-304,306-391,393-412,480,482-505,507-536,564-569
+  s_dab80361bc45dc::t_0837236c5131da 413-479
+  s_d1b6c131b685fe::t_0a63430d854174 125
+  s_dab80361bc45dc::t_e22c1ee3347ab4 481,537
+  s_dab80361bc45dc::t_b27549e28d7e7b 538-563
+  s_dab80361bc45dc::t_97aa1274a42bda 167-191
+  s_dab80361bc45dc::t_04d962d027384e 104-108,111-114,208,243,251,285,305,506
+src/session-cache.ts
+  s_dab80361bc45dc::t_0331ba6d5ffb69 176,211-214
+src/providers/cline-cli-parser.ts
+  s_dab80361bc45dc::t_cc337d83312c39 7-9,28-333
+  s_dab80361bc45dc::t_f648ac5dea1bd1 3
+  s_dab80361bc45dc::t_6f8c4a4ec3c956 27
+  s_dab80361bc45dc::t_ba53a5747471e0 373
+  s_dab80361bc45dc::t_e2c07064e22be7 10-12
+  s_dab80361bc45dc::t_4ebbf49af886c1 374-378,380-381
+  s_dab80361bc45dc::t_e7ea6f0bd7575d 4-6
+  s_dab80361bc45dc::t_dc801b5d6f5cc1 14-15
+  s_dab80361bc45dc::t_84f495dd2e00de 334-336,368-370
+  s_dab80361bc45dc::t_968c8948db57aa 371-372,379,382-411
+  s_dab80361bc45dc::t_b8c5479629a484 13,16-26
+  s_dab80361bc45dc::t_57dc403cf22d28 1-2,337-367
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "b4bd7446cef85585c8c42d22d3a37f8e5db16903",
+  "prompts": {},
+  "sessions": {
+    "s_d1b6c131b685fe": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6c53a446-49df-4718-bc47-d713b391c755",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Rick (TheRickFactr) Culpepper <therickfactr@black-oxford.home.lan>"
+    },
+    "s_dab80361bc45dc": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c2cb24dd-9a00-46e6-9650-f75a7c1f86f9",
+        "model": "claude-opus-5"
+      },
+      "human_author": null
+    }
+  }
+}
