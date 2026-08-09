@@ -1,0 +1,41 @@
+RELEASING.md
+  s_60962db05ec0bc::t_6142d97bec37bb 17,20-22
+  s_bd214e3a4c3b82::t_6b3c67b6d120d7 23
+.github/workflows/tests.yml
+  s_60962db05ec0bc::t_a4c0b190eef0bd 22-24,34
+  s_60962db05ec0bc::t_fd6a0a13d645d5 41
+CONTRIBUTING.md
+  s_60962db05ec0bc::t_ae5bd010ad626f 34,37,40-43
+  s_60962db05ec0bc::t_8ea3e05c76b798 27-29
+  s_bd214e3a4c3b82::t_08690c14f4194a 44
+package.json
+  s_60962db05ec0bc::t_bd3300349c45ad 19-21
+docs/architecture.md
+  s_60962db05ec0bc::t_cf1fe29d5419c1 197
+  s_60962db05ec0bc::t_79a8fcb0375b9b 180,182,184-186,189-193
+  s_bd214e3a4c3b82::t_89d3121497e155 194
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "e5929dd7e82085ba2f116a82cf92f7952ebc7f59",
+  "prompts": {},
+  "sessions": {
+    "s_60962db05ec0bc": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f2da7e76-acb0-494a-be0b-f151f3380ddf",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Rick (TheRickFactr) Culpepper <therickfactr@black-oxford.home.lan>"
+    },
+    "s_bd214e3a4c3b82": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "69cc88e1-59ef-4555-8fd3-c01b3016ae86",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Rick (TheRickFactr) Culpepper <therickfactr@black-oxford.home.lan>"
+    }
+  }
+}
