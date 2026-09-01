@@ -1,0 +1,34 @@
+tests/durable-underread-reconcile.test.ts
+  s_8387c84cff8172::t_7c407f78c41c2c 1-209,211-221,223-227,233-234,241-242
+  s_8387c84cff8172::t_388011d9cb2419 210,222,235
+  s_8387c84cff8172::t_5b74a4cdf62cf0 228-232,236-240
+src/daily-cache.ts
+  s_8387c84cff8172::t_f848385e42205f 1037-1044
+  s_8387c84cff8172::t_f3f92e37b9c16c 1160-1163
+  s_8387c84cff8172::t_5721fb1ca364b9 1101-1107
+  s_8387c84cff8172::t_ceb44c34a9aca7 1100
+  s_8387c84cff8172::t_ede5516caa8649 1045
+src/usage-aggregator.ts
+  s_8387c84cff8172::t_949fd3cf1987fe 18
+  s_8387c84cff8172::t_2e1f098d897fde 385-388
+  s_8387c84cff8172::t_388011d9cb2419 416
+  s_8387c84cff8172::t_0d4aaa44d42821 462-469
+  s_8387c84cff8172::t_a280dcc9d9d6cb 402-415,417,419
+  s_8387c84cff8172::t_d240448941313a 638-642
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "f2e821397eefc8b34a6927d0c905251e4a72b3a0",
+  "prompts": {},
+  "sessions": {
+    "s_8387c84cff8172": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "30c16335-07f9-4fcd-809e-7b1042e5db56",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Rick (TheRickFactr) Culpepper <therickfactr@black-oxford.home.lan>"
+    }
+  }
+}
